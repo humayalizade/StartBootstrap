@@ -1,48 +1,34 @@
 header
-    background: #212529
     width: 100%
-    height: 70px
     position: fixed
     z-index: 1
+    background: #212529
     .menu
-        width: 100%
-        height: 15vh
-        .imgbox
-            width: 183px
-            height: 8vh
+        padding-top: 15px
+        padding-bottom: 15px
+        background-color: #212529
+    .imgbox
     nav
-        display: flex
-        justify-content: flex-end
-        width: 100%
-        height: 8vh
         a
-            color: #c5bcbc
-            font-size: 18px
-            margin-left: 30px
-
+            font-size: 20px
+            color: #d8c8c8
+            margin-left: 20px
             &:hover
-                color: #ffc800
+                color: #f5cd19
     .button
         display: none
-    @media screen and ( max-width: 1092px)
+    @media screen and ( max-width:992px)
         .button
             display: block
-            width: 90px
             height: 30px
-            border-radius: 5px
-            border: 1px solid #c5bcbc
+            border: 1px solid #9e9d9d
+            border-radius: 7px
             p
-                font-size: 12px
-                color: #c5bcbc
-        .stick
-        .line1,.line2,.line3
-            width: 10px
-            height: 1px
-            background-color: #c5bcbc
-        .line2
-            margin: 3px 0
+                color: #ffff
+            .icon
+                i
+                    color: #ffff
+                    font-size: 20px
         .menu
-            .imgbox
-                width: 170px
         nav
             opacity: 0
