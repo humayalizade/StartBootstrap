@@ -155,24 +155,15 @@ header .button {
   margin: 10px 0;
 }
 #services .col-md-4 .textbox h5 {
-  font-weight: 500;
   font-size: 21px;
   color: #837680;
-  line-height: 1.4;
 }
 @media screen and (max-width: 992px) {
   #services .col-md-4 .textbox h2 {
     font-size: 35px;
   }
   #services .col-md-4 .textbox h5 {
-    font-weight: 500;
     font-size: 20px;
-  }
-}
-@media screen and (max-width: 400px) {
-  #services .col-md-4 .textbox h5 {
-    font-weight: 500;
-    font-size: 15px;
   }
 }
 
