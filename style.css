@@ -88,15 +88,17 @@ header .button {
 #welcome .box .textbox h1 {
   color: white;
   font-size: 35px;
+  margin-top: 10px;
+  line-height: 1.2;
 }
 #welcome .box .textbox h3 {
+  font-weight: 700;
   color: white;
-  font-size: 75px;
-  margin-left: 30px;
+  font-size: 80px;
+  line-height: 1.2;
 }
 #welcome .box .btn {
   background-color: #ffc800;
-  margin: 10px 20px;
 }
 #welcome .box .btn:hover {
   background-color: #d9aa00;
@@ -104,6 +106,16 @@ header .button {
 #welcome .box .btn h5 {
   color: white;
 }
+@media screen and (max-width: 768px) {
+  #welcome .box .textbox h3 {
+    font-size: 70px;
+    margin-bottom: 20px;
+  }
+  #welcome .box .btn {
+    margin: 30px 40px;
+  }
+}
+
 #services {
   padding: 80px 0;
 }
