@@ -222,13 +222,13 @@ header .button {
 }
 @media screen and (max-width: 576px) {
   #portfolio .box {
-    width: 400px;
+    width: 416px;
     margin: auto;
   }
 }
 @media screen and (max-width: 400px) {
   #portfolio .box {
-    width: 350px;
+    width: 349px;
     margin: auto;
   }
 }
