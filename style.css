@@ -384,33 +384,36 @@ header .button {
   padding: 80px 0;
   background: #f8f9fa;
 }
-#team h1 {
+#team .textbox h1 {
   font-weight: 700;
-  font-size: 60px;
+  font-size: 50px;
   margin-bottom: 20px;
 }
-#team h1:hover {
+#team .textbox h1:hover {
   cursor: text;
 }
-#team h3 {
-  font-size: 25px;
+#team .textbox h3 {
+  font-size: 20px;
   color: #8b8484;
   margin-bottom: 90px;
 }
-#team h3:hover {
+#team .textbox h3:hover {
   cursor: text;
 }
-#team .imgbox {
-  width: 250px;
-  height: 250px;
+#team .box {
+  margin: 50px 0;
+}
+#team .box .imgbox {
+  width: 200px;
+  height: 200px;
   border: 6px solid #d0d1d1;
   border-radius: 50%;
   overflow: hidden;
 }
 #team .textbox h2 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 700;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 #team .textbox h2:hover {
   cursor: text;
@@ -418,8 +421,7 @@ header .button {
 #team .textbox p {
   font-size: 20px;
   color: #8b8484;
-  margin-bottom: 15px;
-  margin-top: 10px;
+  margin-bottom: 20px;
 }
 #team .textbox p:hover {
   cursor: text;
@@ -438,4 +440,16 @@ header .button {
 }
 #team .icon {
   color: white;
+}
+#team .txt {
+  width: 724px;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 20px;
+}
+#team .txt h6 {
+  color: #8b8484;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 15px;
 }/*# sourceMappingURL=style.css.map */
