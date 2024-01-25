@@ -395,17 +395,14 @@ header .button {
 #team .textbox h3 {
   font-size: 20px;
   color: #8b8484;
-  margin-bottom: 90px;
+  margin-bottom: 50px;
 }
 #team .textbox h3:hover {
   cursor: text;
 }
-#team .box {
-  margin: 50px 0;
-}
 #team .box .imgbox {
-  width: 200px;
-  height: 200px;
+  width: 236px;
+  height: 236px;
   border: 6px solid #d0d1d1;
   border-radius: 50%;
   overflow: hidden;
@@ -431,12 +428,10 @@ header .button {
   height: 40px;
   border-radius: 50%;
   background: #1a1717;
+  margin: 0 10px 0 10px;
 }
 #team .btn:hover {
   background: #424649;
-}
-#team .bgb {
-  margin: 0 10px 0 10px;
 }
 #team .icon {
   color: white;
@@ -444,12 +439,15 @@ header .button {
 #team .txt {
   width: 724px;
   text-align: center;
-  padding-top: 50px;
-  margin: 0 20px;
 }
 #team .txt h6 {
   color: #8b8484;
   font-size: 20px;
   line-height: 1.4;
   margin-bottom: 15px;
+}
+@media screen and (max-width: 992px) {
+  #team .box {
+    margin: 40px 0;
+  }
 }/*# sourceMappingURL=style.css.map */
