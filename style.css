@@ -407,16 +407,19 @@ header .button {
   border-radius: 50%;
   overflow: hidden;
 }
+#team .textbox {
+  margin-bottom: 50px;
+}
 #team .textbox h2 {
   font-size: 30px;
   font-weight: 700;
-  margin-top: 10px;
+  margin: 15px 0 10px 0;
 }
 #team .textbox h2:hover {
   cursor: text;
 }
 #team .textbox p {
-  font-size: 20px;
+  font-size: 18px;
   color: #8b8484;
   margin-bottom: 20px;
 }
